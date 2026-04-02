@@ -17,7 +17,7 @@
 /* Cursor personalizado */
 html {
   cursor:
-    url("/assets/cursor-pointer.cur") 50 50,
+    url("./assets/cursor-pointer.cur") 50 50,
     auto;
   overscroll-behavior: none;
 }
@@ -44,7 +44,7 @@ h1 {
   padding: 3rem 2rem;
   width: 100vw;
   height: 100vh;
-  background: url(/assets/bg.jpg) center bottom;
+  background: url(./assets/bg.jpg) center bottom;
 }
 
 .home button {
@@ -59,7 +59,7 @@ h1 {
 }
 
 button:hover {
-  cursor: url("/assets/cursor.cur"), pointer;
+  cursor: url("./assets/cursor.cur"), pointer;
 }
 
 /* ------------------------------------------ */
@@ -73,7 +73,7 @@ button:hover {
   gap: 2rem;
   width: 100vw;
   height: 100vh;
-  background: url(/assets/bg.jpg) center bottom;
+  background: url(./assets/bg.jpg) center bottom;
 }
 
 .personSelect h2 {
@@ -146,7 +146,7 @@ span {
 
 .person:hover {
   scale: 1.1;
-  cursor: url("/assets/cursor.cur"), pointer;
+  cursor: url("./assets/cursor.cur"), pointer;
 }
 
 .green:hover {
@@ -187,7 +187,7 @@ ul {
   height: 100vh;
   padding: 2rem;
   padding-bottom: 0;
-  background: url(/assets/pista.jpg);
+  background: url(./assets/pista.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
