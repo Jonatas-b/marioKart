@@ -259,12 +259,12 @@ function getSecondPerson(num) {
 
 function setCarImages() {
   const carImages = {
-    Mario: "/assets/mario-racer.png",
-    Luigi: "/assets/luigi-racer.png",
-    Peach: "/assets/peach-racer.png",
-    Yoshi: "/assets/yoshi-racer.png",
-    "Donkey Kong": "/assets/dk-racer.png",
-    Bowser: "/assets/bowser-racer.png",
+    Mario: "./assets/mario-racer.png",
+    Luigi: "./assets/luigi-racer.png",
+    Peach: "./assets/peach-racer.png",
+    Yoshi: "./assets/yoshi-racer.png",
+    "Donkey Kong": "./assets/dk-racer.png",
+    Bowser: "./assets/bowser-racer.png",
   };
   document.getElementById("car1").src = carImages[selectedPlayer1.NOME];
   document.getElementById("car2").src = carImages[selectedPlayer2.NOME];
